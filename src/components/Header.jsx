@@ -1,5 +1,6 @@
 // src/components/Header.jsx
 import { Link } from 'react-router-dom';
+import VLogo from "../assets/V-logo.svg"
 
 const Header = ({ isScrolled }) => {
   return (
@@ -13,7 +14,7 @@ const Header = ({ isScrolled }) => {
     >
       <div className="container mx-auto px-4 flex justify-between items-center w-full ">
         <Link to="/" className="text-2xl font-bold text-[#35D18F]"> {/* Green color for "{ v }" */}
-          V
+          <img src={VLogo}/>
         </Link>
         <div className="flex items-center space-x-6 text-[#FFFFFF]"> {/* White color for the rest of the content */}
           <Link to="/projects" className="hover:text-[#0D6EFD] transition-colors"> {/* Blue link color on hover */}

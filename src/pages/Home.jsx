@@ -10,6 +10,7 @@ import profileImage from "../assets/profile.jpg";
 
 
 
+
 const Portfolio = () => {
   const [isScrolled, setIsScrolled] = useState(false);
 
